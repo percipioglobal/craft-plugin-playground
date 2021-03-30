@@ -1,4 +1,4 @@
-dateModified: 1617117984
+dateModified: 1617127971
 email:
   fromEmail: development@percipio.london
   fromName: Craft
@@ -7,10 +7,11 @@ plugins:
   colour-swatches:
     edition: standard
     enabled: true
-    schemaVersion: 1.0.0
+    schemaVersion: 1.4.1.1
   commerce:
-    edition: lite
+    edition: pro
     enabled: true
+    licenseKey: 0GEHO8SO861PDA3MA1SFZEGF
     schemaVersion: 3.2.18
   minify:
     edition: standard
