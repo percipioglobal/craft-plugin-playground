@@ -1,7 +1,11 @@
-dateModified: 1614779946
+dateModified: 1617098927
 email:
-  fromEmail: andrew@nystudio107.com
-  fromName: Craft
+  fromEmail: support@percipio.london
+  fromName: 'Craft Playground'
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    command: ''
   transportType: craft\mail\transportadapters\Sendmail
 plugins:
   fastcgi-cache-bust:
@@ -111,8 +115,8 @@ system:
   live: true
   name: Project
   retryDuration: 60
-  schemaVersion: 3.6.4
-  timeZone: America/New_York
+  schemaVersion: 3.6.7
+  timeZone: Europe/London
 users:
   allowPublicRegistration: false
   defaultGroup: null
