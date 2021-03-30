@@ -1,4 +1,4 @@
-## 1.0.1 - 2021.03.29
+## 1.0.1 - 2021.03.30
 ### Added
 * Added `make clean` to the Makefile
 * Added **Makefile Project Commands** to `README.md`
@@ -9,6 +9,8 @@
 * Add `craftcms/redactor` to the base config
 * Add `craftcms/commerce` to the base config
 * Added `soap` PHP extension for Commerce
+* Added CP Style Guide to the plugins
+* Added new DB Seeds
 
 ### Changed
 * Set `useEmailAsUsername` to `false` in `config/general.php` so we can use the generic login `admin`
