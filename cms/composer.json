@@ -1,15 +1,16 @@
 {
   "require": {
     "craftcms/cms": "^3.6.9",
-    "craftcms/redactor": "^2.0.0",
     "craftcms/commerce": "^3.0.0",
-    "vlucas/phpdotenv": "^3.4.0",
-    "yiisoft/yii2-redis": "^2.0.6",
+    "craftcms/redactor": "^2.0.0",
     "nystudio107/craft-minify": "^1.0.0",
     "nystudio107/craft-twigpack": "^1.2.11",
     "percipioglobal/craft-colour-swatches": "^1.0.0",
     "percipioglobal/craft-notifications": "^1.0.0",
-    "percipioglobal/craft-password-policy": "^1.0.0"
+    "percipioglobal/craft-password-policy": "^1.0.0",
+    "putyourlightson/craft-cp-style-guide": "^1.0",
+    "vlucas/phpdotenv": "^3.4.0",
+    "yiisoft/yii2-redis": "^2.0.6"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "247bb7e71d4818f3f2367c408fe8b85c",
+    "content-hash": "7733b62ede0ce0efb91525734257ee65",
     "packages": [
         {
             "name": "brick/math",
@@ -3920,6 +3920,51 @@
                 "source": "https://github.com/php-fig/simple-cache/tree/master"
             },
             "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
+            "name": "putyourlightson/craft-cp-style-guide",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/putyourlightson/craft-cp-style-guide.git",
+                "reference": "c72ccdcbad7b95c141aa905a50a187513b7bca44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/putyourlightson/craft-cp-style-guide/zipball/c72ccdcbad7b95c141aa905a50a187513b7bca44",
+                "reference": "c72ccdcbad7b95c141aa905a50a187513b7bca44",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "cp-style-guide",
+                "name": "CP Style Guide"
+            },
+            "autoload": {
+                "psr-4": {
+                    "putyourlightson\\cpstyleguide\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PutYourLightsOn",
+                    "homepage": "https://putyourlightson.com/"
+                }
+            ],
+            "description": "Control panel style guide.",
+            "support": {
+                "docs": "https://github.com/putyourlightson/craft-cp-style-guide",
+                "issues": "https://github.com/putyourlightson/craft-cp-style-guide/issues",
+                "source": "https://github.com/putyourlightson/craft-cp-style-guide"
+            },
+            "time": "2018-12-03T07:33:28+00:00"
         },
         {
             "name": "ralouphie/getallheaders",

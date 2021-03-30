@@ -1,4 +1,4 @@
-dateModified: 1617128483
+dateModified: 1617130716
 email:
   fromEmail: development@percipio.london
   fromName: Craft
@@ -13,6 +13,10 @@ plugins:
     enabled: true
     licenseKey: 0GEHO8SO861PDA3MA1SFZEGF
     schemaVersion: 3.2.18
+  cp-style-guide:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   minify:
     edition: standard
     enabled: true
@@ -36,10 +40,10 @@ plugins:
 system:
   edition: pro
   live: true
-  name: Project
+  name: $SITE_NAME
   retryDuration: 60
   schemaVersion: 3.6.7
-  timeZone: America/New_York
+  timeZone: Europe/London
 users:
   allowPublicRegistration: false
   defaultGroup: null
