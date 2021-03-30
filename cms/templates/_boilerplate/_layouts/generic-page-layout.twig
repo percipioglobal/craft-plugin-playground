@@ -39,9 +39,6 @@
         </div>
         <div id="content-container" class="bg-repeat header-background">
 
-            {# -- Info header, including _navbar.twig -- #}
-            {%- include "_organisms/sections/header.twig" -%}
-
             <main>
                 {# -- Primary content block -- #}
                 {%- block content -%}
@@ -53,8 +50,6 @@
         {%- block subcontent -%}
         {%- endblock -%}
 
-        {# -- Info footer -- #}
-        {%- include "_organisms/sections/footer.twig" -%}
 
         {# -- HTML Footer -- #}
         {%- include "_partials/global-footer.twig" -%}
