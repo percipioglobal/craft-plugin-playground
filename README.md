@@ -27,7 +27,7 @@ You'll need Docker desktop for your platform installed to run the project in loc
 
 The default login is:
 
-**User:** `support@percipio.london` \
+**User:** `development@percipio.london` \
 **Password:** `letmein`
 
 ### Updating
