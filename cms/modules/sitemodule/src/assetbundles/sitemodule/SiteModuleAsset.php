@@ -4,8 +4,8 @@
  *
  * An example module for Craft CMS 3 that lets you enhance your websites with a custom site module
  *
- * @link      https://nystudio107.com/
- * @copyright Copyright (c) 2018 nystudio107
+ * @link      https://percipio.london
+ * @copyright Copyright (c) 2021 Percipio London
  */
 
 namespace modules\sitemodule\assetbundles\sitemodule;
@@ -15,7 +15,7 @@ use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
 
 /**
- * @author    nystudio107
+ * @author    percipio.london
  * @package   SiteModule
  * @since     1.0.0
  */
