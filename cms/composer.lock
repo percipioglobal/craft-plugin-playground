@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d067be16fedc7e569fab3f313a274ed3",
+    "content-hash": "247bb7e71d4818f3f2367c408fe8b85c",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -2839,6 +2839,67 @@
                 "source": "https://github.com/nystudio107/craft-minify/tree/1.2.10"
             },
             "time": "2020-04-02T21:20:01+00:00"
+        },
+        {
+            "name": "nystudio107/craft-twigpack",
+            "version": "1.2.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nystudio107/craft-twigpack.git",
+                "reference": "2b178f8eef9e9b45c349528cd7029ab249b178b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-twigpack/zipball/2b178f8eef9e9b45c349528cd7029ab249b178b8",
+                "reference": "2b178f8eef9e9b45c349528cd7029ab249b178b8",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Twigpack",
+                "handle": "twigpack",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/craft-nystudio107/twigpack/v1/CHANGELOG.md",
+                "components": {
+                    "manifest": "nystudio107\\twigpack\\services\\Manifest"
+                },
+                "class": "nystudio107\\twigpack\\Twigpack"
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\twigpack\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nystudio107",
+                    "homepage": "https://nystudio107.com/"
+                }
+            ],
+            "description": "Twigpack is a bridge between Twig and webpack, with manifest.json & webpack-dev-server HMR support",
+            "keywords": [
+                "craft-plugin",
+                "craftcms",
+                "hmr-support",
+                "manifest-json",
+                "twig",
+                "webpack",
+                "webpack-dev-server"
+            ],
+            "support": {
+                "docs": "https://nystudio107.com/plugins/twigpack/documentation",
+                "issues": "https://nystudio107.com/plugins/twigpack/support",
+                "source": "https://github.com/nystudio107/craft-twigpack/tree/1.2.11"
+            },
+            "time": "2021-03-21T18:17:04+00:00"
         },
         {
             "name": "opis/closure",
