@@ -8,6 +8,7 @@
     "percipioglobal/craft-colour-swatches": "^1.0.0",
     "percipioglobal/craft-notifications": "^1.0.0",
     "percipioglobal/craft-password-policy": "^1.0.0",
+    "percipiolondon/craft-timeloop": "^1.0.0-rc",
     "putyourlightson/craft-cp-style-guide": "^1.0",
     "vlucas/phpdotenv": "^3.4.0",
     "yiisoft/yii2-redis": "^2.0.6"
