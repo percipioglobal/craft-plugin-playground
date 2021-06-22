@@ -1,0 +1,428 @@
+contentColumnType: string
+fieldGroup: d6925b98-6052-4ffd-ae6a-88baebdade5b # Company Fields
+handle: cmBusinessCat
+instructions: null
+name: 'Business Category'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - value
+          - 2
+        -
+          - label
+          - Administration
+    -
+      __assoc__:
+        -
+          - value
+          - 3
+        -
+          - label
+          - Agriculture
+    -
+      __assoc__:
+        -
+          - value
+          - 4
+        -
+          - label
+          - 'Apparel & Fashion'
+    -
+      __assoc__:
+        -
+          - value
+          - 5
+        -
+          - label
+          - 'Architecture & Planning'
+    -
+      __assoc__:
+        -
+          - value
+          - 6
+        -
+          - label
+          - 'Arts & Crafts'
+    -
+      __assoc__:
+        -
+          - value
+          - 7
+        -
+          - label
+          - Automotive
+    -
+      __assoc__:
+        -
+          - value
+          - 8
+        -
+          - label
+          - Aviation
+    -
+      __assoc__:
+        -
+          - value
+          - 9
+        -
+          - label
+          - Biotechnology
+    -
+      __assoc__:
+        -
+          - value
+          - 10
+        -
+          - label
+          - Builder
+    -
+      __assoc__:
+        -
+          - value
+          - 38
+        -
+          - label
+          - 'Business / Management Consulting'
+    -
+      __assoc__:
+        -
+          - value
+          - 11
+        -
+          - label
+          - Childcare
+    -
+      __assoc__:
+        -
+          - value
+          - 12
+        -
+          - label
+          - Cleaning
+    -
+      __assoc__:
+        -
+          - value
+          - 13
+        -
+          - label
+          - 'Commercial Property'
+    -
+      __assoc__:
+        -
+          - value
+          - 14
+        -
+          - label
+          - Communications
+    -
+      __assoc__:
+        -
+          - value
+          - 15
+        -
+          - label
+          - Courier
+    -
+      __assoc__:
+        -
+          - value
+          - 16
+        -
+          - label
+          - Design
+    -
+      __assoc__:
+        -
+          - value
+          - 17
+        -
+          - label
+          - 'Driver (Taxi / Private)'
+    -
+      __assoc__:
+        -
+          - value
+          - 18
+        -
+          - label
+          - Education
+    -
+      __assoc__:
+        -
+          - value
+          - 19
+        -
+          - label
+          - Electrician
+    -
+      __assoc__:
+        -
+          - value
+          - 20
+        -
+          - label
+          - Energy
+    -
+      __assoc__:
+        -
+          - value
+          - 21
+        -
+          - label
+          - Engineering
+    -
+      __assoc__:
+        -
+          - value
+          - 22
+        -
+          - label
+          - Entertainment
+    -
+      __assoc__:
+        -
+          - value
+          - 23
+        -
+          - label
+          - Events
+    -
+      __assoc__:
+        -
+          - value
+          - 24
+        -
+          - label
+          - 'Film & TV'
+    -
+      __assoc__:
+        -
+          - value
+          - 25
+        -
+          - label
+          - 'Financial Services'
+    -
+      __assoc__:
+        -
+          - value
+          - 26
+        -
+          - label
+          - Floristry
+    -
+      __assoc__:
+        -
+          - value
+          - 27
+        -
+          - label
+          - 'Food & Beverages'
+    -
+      __assoc__:
+        -
+          - value
+          - 28
+        -
+          - label
+          - 'Gambling & Casinos'
+    -
+      __assoc__:
+        -
+          - value
+          - 54
+        -
+          - label
+          - 'Hair & Beauty'
+    -
+      __assoc__:
+        -
+          - value
+          - 29
+        -
+          - label
+          - 'Health & Social Care'
+    -
+      __assoc__:
+        -
+          - value
+          - 30
+        -
+          - label
+          - 'Health, Wellness and Fitness'
+    -
+      __assoc__:
+        -
+          - value
+          - 31
+        -
+          - label
+          - Hospitality
+    -
+      __assoc__:
+        -
+          - value
+          - 32
+        -
+          - label
+          - 'IT Contractor / Consulting'
+    -
+      __assoc__:
+        -
+          - value
+          - 33
+        -
+          - label
+          - Joiner
+    -
+      __assoc__:
+        -
+          - value
+          - 34
+        -
+          - label
+          - 'Landscape Gardener'
+    -
+      __assoc__:
+        -
+          - value
+          - 35
+        -
+          - label
+          - 'Legal Services'
+    -
+      __assoc__:
+        -
+          - value
+          - 36
+        -
+          - label
+          - 'Leisure & Tourism'
+    -
+      __assoc__:
+        -
+          - value
+          - 37
+        -
+          - label
+          - Logistics
+    -
+      __assoc__:
+        -
+          - value
+          - 39
+        -
+          - label
+          - 'Marketing & Advertising'
+    -
+      __assoc__:
+        -
+          - value
+          - 40
+        -
+          - label
+          - Music
+    -
+      __assoc__:
+        -
+          - value
+          - 41
+        -
+          - label
+          - 'Painter and Decorator'
+    -
+      __assoc__:
+        -
+          - value
+          - 42
+        -
+          - label
+          - 'Performing Arts'
+    -
+      __assoc__:
+        -
+          - value
+          - 43
+        -
+          - label
+          - Photography
+    -
+      __assoc__:
+        -
+          - value
+          - 44
+        -
+          - label
+          - Plasterer
+    -
+      __assoc__:
+        -
+          - value
+          - 45
+        -
+          - label
+          - Plumber
+    -
+      __assoc__:
+        -
+          - value
+          - 46
+        -
+          - label
+          - 'Property / Landlord'
+    -
+      __assoc__:
+        -
+          - value
+          - 47
+        -
+          - label
+          - Retail
+    -
+      __assoc__:
+        -
+          - value
+          - 48
+        -
+          - label
+          - 'Social Clubs'
+    -
+      __assoc__:
+        -
+          - value
+          - 49
+        -
+          - label
+          - 'Software Development'
+    -
+      __assoc__:
+        -
+          - value
+          - 50
+        -
+          - label
+          - Utilities
+    -
+      __assoc__:
+        -
+          - value
+          - 51
+        -
+          - label
+          - 'Vet & Pet Care'
+    -
+      __assoc__:
+        -
+          - value
+          - 52
+        -
+          - label
+          - 'Web Design'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

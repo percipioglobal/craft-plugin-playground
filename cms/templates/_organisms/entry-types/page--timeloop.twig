@@ -1,0 +1,46 @@
+<h3>Timeloop Model</h3>
+
+<ul>
+    <li>{{ entry.timeloop.loopStart | date('Y-m-d\\TH:i:sP') }}</li>
+    <li>{{ entry.timeloop.loopEnd | date('Y-m-d\\TH:i:sP') }}</li>
+    <li>{{ entry.timeloop.loopEndHour | date('H:i:s') }}</li>
+    <li>{{ entry.timeloop.loopStartHour | date('H:i:s') }}</li>
+</ul>
+
+<h3>Period Model</h3>
+
+<ul>
+    <li>{{ entry.timeloop.period.frequency }}</li>
+    <li>{{ entry.timeloop.period.cycle }}</li>
+    {% for day in entry.timeloop.period.days %}
+        <li>{{ day }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Timestring Model</h3>
+
+<ul>
+    <li>{{ entry.timeloop.timestring.ordinal ?? 'not set' }}</li>
+    <li>{{ entry.timeloop.timestring.day ?? 'not set' }}</li>
+</ul>
+
+<h3>Upcoming Dates</h3>
+
+<ul>
+    <li>upcoming: {{ entry.timeloop.upcoming | date('Y-m-d\\TH:i:sP') }}</li>
+    <li>next upcoming: {{ entry.timeloop.nextUpcoming | date('Y-m-d\\TH:i:sP') }}</li>
+</ul>
+
+<h3>Timeloop ToString</h3>
+
+<ul>
+    <li>{{ entry.timeloop }}</li>
+</ul>
+
+<h3>Timeloop Dates</h3>
+
+<ul>
+    {% for date in entry.timeloop.dates %}
+        <li>{{ date | date('Y-m-d\\TH:i:sP') }}</li>
+    {% endfor %}
+</ul>

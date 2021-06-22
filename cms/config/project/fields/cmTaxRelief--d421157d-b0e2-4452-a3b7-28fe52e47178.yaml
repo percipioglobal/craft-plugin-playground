@@ -1,0 +1,36 @@
+contentColumnType: string
+fieldGroup: d6925b98-6052-4ffd-ae6a-88baebdade5b # Company Fields
+handle: cmTaxRelief
+instructions: null
+name: 'Tax Relief Method'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - value
+          - salary
+        -
+          - label
+          - 'Salaray Sacrifice'
+    -
+      __assoc__:
+        -
+          - value
+          - relief
+        -
+          - label
+          - 'Relief at Source'
+    -
+      __assoc__:
+        -
+          - value
+          - net
+        -
+          - label
+          - 'Net Pay'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

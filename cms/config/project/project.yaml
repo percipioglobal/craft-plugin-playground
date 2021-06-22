@@ -1,4 +1,4 @@
-dateModified: 1617130716
+dateModified: 1624298264
 email:
   fromEmail: development@percipio.london
   fromName: Craft
@@ -12,7 +12,11 @@ plugins:
     edition: pro
     enabled: true
     licenseKey: 0GEHO8SO861PDA3MA1SFZEGF
-    schemaVersion: 3.2.18
+    schemaVersion: 3.3.2
+  company-management:
+    edition: standard
+    enabled: true
+    schemaVersion: 0.1.0
   cp-style-guide:
     edition: standard
     enabled: true
@@ -29,10 +33,21 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+    settings:
+      cases: '1'
+      maxLength: '160'
+      minLength: '6'
+      numbers: '1'
+      showStrengthIndicator: '1'
+      symbols: '1'
   redactor:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  timeloop:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   twigpack:
     edition: standard
     enabled: true
@@ -42,11 +57,5 @@ system:
   live: true
   name: $SITE_NAME
   retryDuration: 60
-  schemaVersion: 3.6.7
-  timeZone: Europe/London
-users:
-  allowPublicRegistration: false
-  defaultGroup: null
-  photoSubpath: ''
-  photoVolumeUid: null
-  requireEmailVerification: true
+  schemaVersion: 3.6.8
+  timeZone: America/St_Johns

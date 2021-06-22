@@ -1,0 +1,15 @@
+contentColumnType: datetime
+fieldGroup: d6925b98-6052-4ffd-ae6a-88baebdade5b # Company Fields
+handle: cmAccYearEndDate
+instructions: null
+name: 'Accounting Year End Date'
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+  showDate: true
+  showTime: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

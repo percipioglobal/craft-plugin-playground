@@ -1,0 +1,11 @@
+contentColumnType: text
+fieldGroup: d6925b98-6052-4ffd-ae6a-88baebdade5b # Company Fields
+handle: cmPayrollDate
+instructions: null
+name: 'Payroll Date'
+searchable: false
+settings:
+  showTime: 0
+translationKeyFormat: null
+translationMethod: none
+type: percipiolondon\timeloop\fields\TimeloopField
