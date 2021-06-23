@@ -1,3 +1,10 @@
+## 1.0.2 - 23.06.2021
+
+### Changed
+- Removed `USER` directive in the PHP containers, since the pool runs as www-data already
+- Fix permissions regression
+- Continue running the php-fpm containers as root (since php-fpm uses worker pools with the proper user/group), but switch to su-exec to ensure any craft CLI commands are run as www-data
+
 ## 1.0.1 - 2021.03.30
 ### Added
 * Added `make clean` to the Makefile
