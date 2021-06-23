@@ -1,8 +1,52 @@
-dateModified: 1624355795
+dateModified: 1624437501
 email:
   fromEmail: development@percipio.london
   fromName: Craft
   transportType: craft\mail\transportadapters\Sendmail
+graphql:
+  publicToken:
+    enabled: true
+    expiryDate: null
+meta:
+  __names__:
+    0e134739-592e-4c1b-8b11-7dde3a260256: Default # Default
+    1da81eb2-41ca-4393-9823-1555c052d60c: 'Payroll Date' # Payroll Date
+    2f975bfd-4a8b-4022-a817-51ca21be34b7: 'Corporation Tax Reference' # Corporation Tax Reference
+    3bb87cf7-25f1-4329-bcf6-7ee2e85bfc02: 'Blackhawk network API connect' # Blackhawk network API connect
+    5c642d7e-b16b-4836-9575-668d75d242e5: Site # Site
+    8b15085a-eb22-4b83-b155-d2466e6297ab: 'Calculate on Qualifying Earning' # Calculate on Qualifying Earning
+    8f38eaf1-7f78-4463-bc3a-eab20c3a8083: Default # Default
+    9a3ad576-3c75-441f-9d0c-25ad13b7a5e5: 'Staging Date' # Staging Date
+    11b5db76-6816-4c2f-9d11-9f368a917181: 'Business Category' # Business Category
+    31f1a720-37e8-4464-8239-513ee4d3b03d: 'XERO payroll API connect' # XERO payroll API connect
+    54e60257-f31a-44aa-960e-bbd364197e28: Homepage # Homepage
+    77d45787-cfe5-47ae-83f3-e42727ac27a1: Default # Default
+    87a5fad8-e784-43d1-8094-cfd2302d4c1e: 'Accounts office reference' # Accounts office reference
+    94b4d5ac-d7ea-4241-a6cb-92b39f482f99: Common # Common
+    848a56c4-4ed3-4f99-b898-775a7b8da608: CraftDateTest # CraftDateTest
+    a5cb77be-c4d9-4d3e-88fb-d5384ca13941: 'Error Image' # Error Image
+    aa2262a4-02ec-401f-9cbe-fa5b29602c1c: Timeloop # Timeloop
+    b8ba7115-3804-4c06-8a96-501963d1fc5c: 'Error Headline' # Error Headline
+    b33c281d-6263-4893-84bf-9855e2e09fe0: 'Day in Month Following Pay Period End ( 1 - 31 )' # Day in Month Following Pay Period End ( 1 - 31 )
+    b578093e-53c5-40bf-ab84-90c9109d809b: Default # Default
+    c3040a97-c87c-4fe5-b375-1c578b845e19: 'Accounting Year End Date' # Accounting Year End Date
+    ce7a7243-78c3-4612-b0b1-fd4232776174: 'Employer Contribution ( % )' # Employer Contribution ( % )
+    d08a0d16-0e00-49e6-9cd4-465fa2d65d7d: Errors # Errors
+    d15cda3e-4862-4e2b-a0ff-c0387f30883d: 'Pension Date' # Pension Date
+    d26c400f-fb9d-46ae-88ff-53915665e90d: 'Company Registration Number' # Company Registration Number
+    d6925b98-6052-4ffd-ae6a-88baebdade5b: 'Company Fields' # Company Fields
+    d421157d-b0e2-4452-a3b7-28fe52e47178: 'Tax Relief Method' # Tax Relief Method
+    dde88dfb-1a87-4732-83de-6f738490edc5: 'PAYE Reference' # PAYE Reference
+    e1e9bc49-0f42-4f88-980c-26c6afcd1671: New # New
+    e6c2eb12-4cb1-4a71-8e5f-255e1b211a83: Dummy # Dummy
+    e6c54410-3c23-465c-8db8-f96399c6e86f: Default # Default
+    e6d658aa-c335-4f15-bbcd-59fe05d9e913: 'Error Text' # Error Text
+    e8e3f3ca-93ec-4e88-ac65-12b7d7056640: 'Pay Cut Off Date' # Pay Cut Off Date
+    e47f792c-fcdc-43ec-9b20-41a4917b4191: Default # Default
+    ed09c922-1abf-4d86-8c50-2dcb759e2ff7: 'Employee Contribution ( % )' # Employee Contribution ( % )
+    f83257f1-bf0b-463f-a366-30cdcc88a10c: Clothing # Clothing
+    f89601e9-4ba9-4a48-9e99-350aa9914912: $SITE_NAME # $SITE_NAME
+    fb3a8f31-d1cc-4c13-903b-a501f7e51f54: Homepage # Homepage
 plugins:
   colour-swatches:
     edition: standard
@@ -12,7 +56,7 @@ plugins:
     edition: pro
     enabled: true
     licenseKey: 0GEHO8SO861PDA3MA1SFZEGF
-    schemaVersion: 3.3.2
+    schemaVersion: 3.4.10
   company-management:
     edition: standard
     enabled: true
@@ -57,5 +101,11 @@ system:
   live: true
   name: $SITE_NAME
   retryDuration: 60
-  schemaVersion: 3.6.8
+  schemaVersion: 3.7.7
   timeZone: America/St_Johns
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
