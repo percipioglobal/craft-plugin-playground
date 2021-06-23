@@ -1,4 +1,0 @@
-isPublic: true
-name: 'Public Schema'
-scope:
-  - 'companyTypes.:read'
