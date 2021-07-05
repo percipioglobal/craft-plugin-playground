@@ -30,10 +30,16 @@ RUN set -eux; \
         nano \
         optipng \
         mysql-client \
+        mariadb-connector-c \
+        postgresql-client \
+        postgresql-dev \
     && \
     # Install PHP extensions
     docker-php-ext-install \
         pdo_mysql \
+        pdo_pgsql \
+        pgsql \
+        soap \
     && \
     # Install Composer
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin/ --filename=composer \
